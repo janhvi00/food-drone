@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+}
+.container{
+    width: 83%;
+    margin: auto;
+    
+}
+
+
+.header{
+    position: relative;
+    height: 500px;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.header-body-section{
+    position: absolute;
+    top:0;
+    width: 100%;
+    color:black;
+}
+.nav{
+   font-weight: 550;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+.logoContainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color:inherit;
+    text-decoration: none;
+}
+.FooDᗡrone-logo{
+    width: 200px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: 50px;
+}
+.header-body-dection-discover{
+    font-size: 40px;
+    margin: 20px 0; 
+}
+.search-container{
+    background-color: rgb(96, 192, 233);
+    width: 100%;
+    height: 55px;
+    max-width: 750px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+.fa-location-dot{
+    color: rgb(246, 91, 91);
+    font-size: 25px;
+}
+.fa-caret-up{
+    color: black;
+}
+.detectionLocation input{
+    border: none;
+    font-size: 18px;
+    width: 190px;
+}
+.line{
+    padding: 7px;
+}
+.search-item input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+}
